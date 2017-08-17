@@ -1,0 +1,23 @@
+{
+    "name" : "Facebook Colors Switch",
+    "version" : "1.0",
+    "manifest_version" : 2,
+    "description" : "This Is For Change Facebook Colors",
+    "background" : {
+        "scripts" : ["script.js"]
+    },
+    "browser_action" : {
+        "default_icon" : "icon.png",
+        "default_popup" : "index.html"
+    },
+    "icons" : {
+        "64" : "icon64.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://www.facebook.com/*","https://www.facebook.com/*"],
+          "css": ["styles.css"],
+          "js": ["jquery.js","script.js"]
+        }
+      ]
+}
