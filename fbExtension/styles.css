@@ -2,6 +2,9 @@ body,html,a,h1,h2,h3,h4,h5,h6,section,p,nav,img,i,li,ul,tb,tr,table,head,tbody,t
     background-color: transparent!important;
     color: #000!important;
 }
+a.profileLink, a.weakReference{
+    font-weight: bold!important;
+}
 span,div{
     color: #000!important;
 }
@@ -19,4 +22,21 @@ div#pagelet_canvas_nav_content{
 button[data-loggable="ProfileHighQualityLogger"] {
     border-left-color: #000!important;
     color: #000!important;
+}
+span._30w0, span._50f7,a._156p{
+    color: #fff!important;
+}
+span._3esb, span._c24, span._50f5{
+    color: #000!important;
+}
+div._5h60 fbTimelineTimePeriod,#pagelet_timeline_recent,#timeline_tab_content {
+    background-color: transparent!important;
+    color: #000!important;
+}
+
+div.fbNubFlyoutTitlebar, div.titlebar{
+    background-color: lightseagreen!important;
+}
+div#pagelet_ego_pane,div.pagelet-group,div.pagelet,div.ego_column,div.pagelet,div.b_bxin0-8bb,div.egoOrganicColumn {
+    display: "none"!important;
 }
