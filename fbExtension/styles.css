@@ -2,7 +2,7 @@ body,html,a,h1,h2,h3,h4,h5,h6,section,p,nav,img,i,li,ul,tb,tr,table,head,tbody,t
     background-color: transparent!important;
     color: #000!important;
 }
-a.profileLink, a.weakReference{
+a.profileLink, a.weakReference, span.see_more_link_inner, a._58cn {
     font-weight: bold!important;
 }
 span,div{
@@ -37,6 +37,15 @@ div._5h60 fbTimelineTimePeriod,#pagelet_timeline_recent,#timeline_tab_content {
 div.fbNubFlyoutTitlebar, div.titlebar{
     background-color: lightseagreen!important;
 }
-div#pagelet_ego_pane,div.pagelet-group,div.pagelet,div.ego_column,div.pagelet,div.b_bxin0-8bb,div.egoOrganicColumn {
+div#pagelet_ego_pane,
+div.pagelet-group,
+div.pagelet,
+div.ego_column,
+div.pagelet,
+div.b_bxin0-8bb,
+div.egoOrganicColumn,
+div#pagelet_ego_pane,
+div.u_jsonp_2_1,
+div.home_right_column {
     display: "none"!important;
 }
